@@ -1,6 +1,6 @@
 "use client"
 
-import { Github, Linkedin, Download } from "lucide-react"
+import { Github, Linkedin, Download, Eye } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import Image from "next/image"
@@ -31,20 +31,24 @@ export default function Hero() {
                 Backend Developer
               </Badge>
             </div>
-            <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
+            {/* <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
               Passionate Backend Engineer specializing in Node.js, AWS, and scalable web applications. Currently
               building innovative solutions at 7Span Internet Private Limited.
-            </p>
+            </p> */}
           </div>
 
-          <div className="flex justify-center space-x-6 mb-8">
-            <Button variant="outline" asChild>
-              <a href="/resume.pdf" download="Keval_Rabadiya_Resume.pdf">
-                <Download className="mr-2 h-4 w-4" />
-                Download Resume
-              </a>
-            </Button>
-          </div>
+         <div className="flex justify-center space-x-6 mb-8">
+          <Button variant="outline" asChild>
+            <a
+              href="https://drive.google.com/file/d/1oFIW-29m5MmrcRu-tvo9R0NzhdYj1sV8/preview"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+               <Eye className="mr-2 h-4 w-4" />
+              Resume
+            </a>
+          </Button>
+        </div>
 
           <div className="flex justify-center space-x-6">
             <a

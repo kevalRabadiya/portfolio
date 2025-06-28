@@ -1,7 +1,7 @@
 "use client"
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { MapPin, Github, Linkedin, Mail, Phone } from "lucide-react"
+import { MapPin, Github, Linkedin, Mail, Phone, Instagram } from "lucide-react"
 
 export default function Contact() {
   const contactInfo = [
@@ -35,6 +35,11 @@ export default function Contact() {
       icon: <Linkedin className="h-5 w-5" />,
       label: "LinkedIn",
       href: "https://linkedin.com/in/keval-rabadiya",
+    },
+    {
+      icon: <Instagram className="h-5 w-5" />,
+      label: "Instagram",
+      href: "https://www.instagram.com/kevalrabadiya_/",
     },
   ]
 
@@ -88,15 +93,15 @@ export default function Contact() {
               <CardContent>
                 <div className="flex gap-4">
                   {socialLinks.map((link, index) => (
-                    <a
-                      key={index}
-                      href={link.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      <a
+                        key={index}
+                        href={link.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
                       className="p-3 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-blue-900 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                    >
-                      {link.icon}
-                    </a>
+                      >
+                        {link.icon}
+                      </a>
                   ))}
                 </div>
               </CardContent>

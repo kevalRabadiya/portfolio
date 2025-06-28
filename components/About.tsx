@@ -31,9 +31,7 @@ export default function About() {
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">About Me</h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            I'm a dedicated Backend Engineer with a passion for creating scalable, efficient solutions. Currently
-            working at 7Span Internet Private Limited, I specialize in building robust APIs, implementing cloud
-            architectures, and optimizing system performance.
+            I’m a Backend Engineer with hands-on experience building scalable, cloud-native web applications and REST APIs using Node.js, TypeScript, MySQL, and AWS. Currently contributing at 7Span on Dimboo, a social media automation platform, I specialize in designing high-performance backend architectures, serverless functions, and intelligent data pipelines.
           </p>
         </div>
 
