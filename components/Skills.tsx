@@ -13,7 +13,7 @@ export default function Skills() {
     {
       title: "Backend Technologies",
       icon: <Wrench className="h-5 w-5" />,
-      skills: ["Node.js", "Express.js", "Next.js", "REST APIs", "Serverless"],
+      skills: ["Node.js", "Express.js", "Next.js", "REST APIs"],
       color: "bg-green-100 dark:bg-green-900 text-green-600 dark:text-green-400",
     },
     {
@@ -23,9 +23,9 @@ export default function Skills() {
       color: "bg-purple-100 dark:bg-purple-900 text-purple-600 dark:text-purple-400",
     },
     {
-      title: "DevOps & Cloud",
+      title: "DevOps & Tools",
       icon: <Cloud className="h-5 w-5" />,
-      skills: ["AWS (EC2, S3, Lambda, RDS, SQS)", "Docker", "CloudWatch", "Serverless Architecture"],
+      skills: ["AWS (EC2, S3, Lambda, RDS, SQS)", "Docker", "Serverless Architecture","Git", "CI/CD","Bitbucket"],
       color: "bg-orange-100 dark:bg-orange-900 text-orange-600 dark:text-orange-400",
     },
   ]

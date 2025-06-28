@@ -21,6 +21,7 @@ export default function Navigation() {
     { href: "#about", label: "About" },
     { href: "#experience", label: "Experience" },
     { href: "#skills", label: "Skills" },
+    { href: "#blog", label: "Blog" },
     { href: "#education", label: "Education" },
     { href: "#contact", label: "Contact" },
   ]
@@ -35,7 +36,6 @@ export default function Navigation() {
             </span>
           </div>
 
-          {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               {navItems.map((item) => (
