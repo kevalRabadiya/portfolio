@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card"
-import { Code, Cloud, Database, Zap } from "lucide-react"
+import { Code, Cloud, Database, Server, } from "lucide-react"
 
 export default function About() {
   const highlights = [
@@ -11,7 +11,7 @@ export default function About() {
     {
       icon: <Cloud className="h-6 w-6" />,
       title: "Cloud Architecture",
-      description: "AWS certified with experience in serverless and scalable solutions",
+      description: "Experienced in building serverless and scalable solutions using AWS services.",
     },
     {
       icon: <Database className="h-6 w-6" />,
@@ -19,10 +19,10 @@ export default function About() {
       description: "Proficient in MySQL, MongoDB with ORM tools like Prisma",
     },
     {
-      icon: <Zap className="h-6 w-6" />,
-      title: "Performance Optimization",
-      description: "Achieved 20-30% API response time improvements through optimization",
-    },
+    icon: <Server className="h-6 w-6" />,
+    title: "System Design",
+    description: "Designed complete project architecture including scheduled crons, Lambda triggers, and data pipelines to store and process analytics in databases.",
+  },
   ]
 
   return (
@@ -31,7 +31,7 @@ export default function About() {
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">About Me</h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            I’m a Backend Engineer with hands-on experience building scalable, cloud-native web applications and REST APIs using Node.js, TypeScript, MySQL, and AWS. Currently contributing at 7Span on Dimboo, a social media automation platform, I specialize in designing high-performance backend architectures, serverless functions, and intelligent data pipelines.
+            I’m a Backend Engineer with hands-on experience building scalable, cloud-native web applications and REST APIs using Node.js, TypeScript, MySQL, and AWS. Currently contributing at 7Span, a social media automation platform, I specialize in designing high-performance backend architectures, serverless functions, and intelligent data pipelines.
           </p>
         </div>
 

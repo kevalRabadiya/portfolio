@@ -34,7 +34,7 @@ export default function Contact() {
     {
       icon: <Linkedin className="h-5 w-5" />,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/keval-rabadiya",
+      href: "https://www.linkedin.com/in/keval-rabadiya-496842203/",
     },
     {
       icon: <Instagram className="h-5 w-5" />,
