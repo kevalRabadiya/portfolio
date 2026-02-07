@@ -12,6 +12,21 @@ export default function Experience() {
       type: "Full-time",
       projects: [
         {
+          name: "Skill-Based Hiring Platform",
+          description:
+            "A modern recruitment platform designed to transform the hiring experience by prioritizing verified technical skills over traditional resume screening, enabling faster, fairer matches between recruiters and candidates.",
+          technologies: ["Node.js", "Express", "TypeScript", "PostgreSQL", "Prisma", "AWS"],
+          achievements: [
+            "Architected and developed core platform services to support skill-based candidate assessments, recruiter dashboards, and role-matching pipelines, enhancing hiring precision by focusing on verified competencies rather than resumes",
+            "Designed and built secure, proctored assessment workflows that enable candidates to submit hands-on skill evaluations, with backend logic for role benchmarking and recruiter-ready scoring",
+            "Implemented multi-role access control and secure session management for administrators, candidates, and recruiter users to ensure data integrity and privacy across the ecosystem",
+            "Developed real-time candidate scoring and leaderboard modules providing recruiters with transparent, ranked insights to shortlist the best talent efficiently",
+            "Integrated automated notifications and status tracking to improve participant engagement during pilot hiring fairs and assessment cycles",
+            "Optimized API design for performance and scalability, ensuring low-latency retrieval of assessment results and job matching data under peak loads",
+            "Collaborated with product and design teams to shape user flows for candidates and recruiters, improving adoption of the skills-first hiring model",
+          ],
+        },
+        {
           name: "Dimboo - Social Media Posts Planner",
           description:
             "A comprehensive social media management platform for brands to publish and track content across POS profiles",
