@@ -19,7 +19,7 @@ export default function Skills() {
     {
       title: "Databases & ORM",
       icon: <Database className="h-5 w-5" />,
-      skills: ["MySQL", "MongoDB", "Prisma", "Sequelize", "Database Design"],
+      skills: ["MySQL", "PostgreSQL", "MongoDB", "Prisma", "Sequelize", "Database Design"],
       color: "bg-purple-100 dark:bg-purple-900 text-purple-600 dark:text-purple-400",
     },
     {

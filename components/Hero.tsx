@@ -40,7 +40,7 @@ export default function Hero() {
          <div className="flex justify-center space-x-6 mb-8">
           <Button variant="outline" asChild>
             <a
-              href="https://drive.google.com/file/d/1oFIW-29m5MmrcRu-tvo9R0NzhdYj1sV8/preview"
+              href="https://flowcv.com/resume/kov6u25v4m"
               target="_blank"
               rel="noopener noreferrer"
             >
