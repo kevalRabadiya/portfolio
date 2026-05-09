@@ -27,7 +27,7 @@ export default function About() {
   ]
 
   const stats = [
-    { label: "Years of Experience", value: "1.5+" },
+    { label: "Years of Experience", value: "2+" },
     { label: "Projects Completed", value: "3+" },
     { label: "AWS Certifications", value: "1" },
     { label: "Tech Stack Mastery", value: "8+" },
@@ -134,9 +134,9 @@ export default function About() {
               "Node.js", "Express.js", "TypeScript", "JavaScript", 
               "AWS Lambda", "AWS S3", "AWS RDS", "PostgreSQL", "MySQL", 
               "MongoDB", "Prisma", "REST APIs", "Serverless", "Docker", 
-              "Git", "CI/CD", "System Design"
+              "Git", "CI/CD", "System Design","ReactJS"
             ].map((tech, index) => (
-              <Badge 
+              <Badge  
                 key={index} 
                 variant="secondary" 
                 className="px-4 py-2 text-sm font-medium hover:bg-blue-100 hover:text-blue-800 dark:hover:bg-blue-900 dark:hover:text-blue-200 transition-colors cursor-default"
