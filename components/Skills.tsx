@@ -7,13 +7,13 @@ export default function Skills() {
     {
       title: "Programming Languages",
       icon: <Code className="h-5 w-5" />,
-      skills: ["JavaScript", "TypeScript", "SQL", "Java", "Python"],
+      skills: ["JavaScript", "SQL", "Python"],
       color: "bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400",
     },
     {
-      title: "Backend Technologies",
+      title: "Technologies",
       icon: <Wrench className="h-5 w-5" />,
-      skills: ["Node.js", "Express.js", "Next.js", "REST APIs"],
+      skills: ["Node.js", "Express.js", "Next.js", "REST APIs", "ReactJS", "TypeScript"],
       color: "bg-green-100 dark:bg-green-900 text-green-600 dark:text-green-400",
     },
     {
